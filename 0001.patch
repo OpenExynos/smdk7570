@@ -1,0 +1,104 @@
+diff --git a/packages/apps/Browser/AndroidManifest.xml b/packages/apps/Browser/AndroidManifest.xml
+index a1de131370..08c038cc2e 100644
+--- a/packages/apps/Browser/AndroidManifest.xml
++++ b/packages/apps/Browser/AndroidManifest.xml
+@@ -20,6 +20,8 @@
+ 
+     <original-package android:name="com.android.browser" />
+ 
++	<uses-sdk android:targetSdkVersion="8" />
++
+     <permission android:name="com.android.browser.permission.PRELOAD"
+         android:label="@string/permission_preload_label"
+         android:protectionLevel="signatureOrSystem" />
+diff --git a/packages/apps/Browser/tests/Android.mk b/packages/apps/Browser/tests/Android.mk-
+similarity index 100%
+rename from packages/apps/Browser/tests/Android.mk
+rename to packages/apps/Browser/tests/Android.mk-
+diff --git a/packages/apps/Calendar/Android.mk b/packages/apps/Calendar/Android.mk-
+similarity index 100%
+rename from packages/apps/Calendar/Android.mk
+rename to packages/apps/Calendar/Android.mk-
+diff --git a/packages/apps/Calendar/tests/Android.mk b/packages/apps/Calendar/tests/Android.mk-
+similarity index 100%
+rename from packages/apps/Calendar/tests/Android.mk
+rename to packages/apps/Calendar/tests/Android.mk-
+diff --git a/packages/apps/Contacts/Android.mk b/packages/apps/Contacts/Android.mk-
+similarity index 100%
+rename from packages/apps/Contacts/Android.mk
+rename to packages/apps/Contacts/Android.mk-
+diff --git a/packages/apps/Contacts/tests/Android.mk b/packages/apps/Contacts/tests/Android.mk-
+similarity index 100%
+rename from packages/apps/Contacts/tests/Android.mk
+rename to packages/apps/Contacts/tests/Android.mk-
+diff --git a/packages/apps/DeskClock/Android.mk b/packages/apps/DeskClock/Android.mk-
+similarity index 100%
+rename from packages/apps/DeskClock/Android.mk
+rename to packages/apps/DeskClock/Android.mk-
+diff --git a/packages/apps/Dialer/tests/Android.mk b/packages/apps/Dialer/tests/Android.mk-
+similarity index 100%
+rename from packages/apps/Dialer/tests/Android.mk
+rename to packages/apps/Dialer/tests/Android.mk-
+diff --git a/packages/apps/Email/Android.mk b/packages/apps/Email/Android.mk-
+similarity index 100%
+rename from packages/apps/Email/Android.mk
+rename to packages/apps/Email/Android.mk-
+diff --git a/packages/apps/Email/tests/Android.mk b/packages/apps/Email/tests/Android.mk-
+similarity index 100%
+rename from packages/apps/Email/tests/Android.mk
+rename to packages/apps/Email/tests/Android.mk-
+diff --git a/packages/apps/ExactCalculator/Android.mk b/packages/apps/ExactCalculator/Android.mk-
+similarity index 100%
+rename from packages/apps/ExactCalculator/Android.mk
+rename to packages/apps/ExactCalculator/Android.mk-
+diff --git a/packages/apps/ExactCalculator/tests/Android.mk b/packages/apps/ExactCalculator/tests/Android.mk-
+similarity index 100%
+rename from packages/apps/ExactCalculator/tests/Android.mk
+rename to packages/apps/ExactCalculator/tests/Android.mk-
+diff --git a/packages/apps/Exchange/Android.mk b/packages/apps/Exchange/Android.mk-
+similarity index 100%
+rename from packages/apps/Exchange/Android.mk
+rename to packages/apps/Exchange/Android.mk-
+diff --git a/packages/apps/Exchange/tests/Android.mk b/packages/apps/Exchange/tests/Android.mk-
+similarity index 100%
+rename from packages/apps/Exchange/tests/Android.mk
+rename to packages/apps/Exchange/tests/Android.mk-
+diff --git a/packages/apps/Messaging/Android.mk b/packages/apps/Messaging/Android.mk-
+similarity index 100%
+rename from packages/apps/Messaging/Android.mk
+rename to packages/apps/Messaging/Android.mk-
+diff --git a/packages/apps/Messaging/tests/Android.mk b/packages/apps/Messaging/tests/Android.mk-
+similarity index 100%
+rename from packages/apps/Messaging/tests/Android.mk
+rename to packages/apps/Messaging/tests/Android.mk-
+diff --git a/packages/apps/MusicFX/Android.mk b/packages/apps/MusicFX/Android.mk-
+similarity index 100%
+rename from packages/apps/MusicFX/Android.mk
+rename to packages/apps/MusicFX/Android.mk-
+diff --git a/packages/apps/QuickSearchBox/Android.mk b/packages/apps/QuickSearchBox/Android.mk-
+similarity index 100%
+rename from packages/apps/QuickSearchBox/Android.mk
+rename to packages/apps/QuickSearchBox/Android.mk-
+diff --git a/packages/apps/QuickSearchBox/tests/Android.mk b/packages/apps/QuickSearchBox/tests/Android.mk-
+similarity index 100%
+rename from packages/apps/QuickSearchBox/tests/Android.mk
+rename to packages/apps/QuickSearchBox/tests/Android.mk-
+diff --git a/packages/providers/CallLogProvider/Android.mk b/packages/providers/CallLogProvider/Android.mk-
+similarity index 100%
+rename from packages/providers/CallLogProvider/Android.mk
+rename to packages/providers/CallLogProvider/Android.mk-
+diff --git a/packages/providers/CallLogProvider/tests/Android.mk b/packages/providers/CallLogProvider/tests/Android.mk-
+similarity index 100%
+rename from packages/providers/CallLogProvider/tests/Android.mk
+rename to packages/providers/CallLogProvider/tests/Android.mk-
+diff --git a/packages/providers/ContactsProvider/Android.mk b/packages/providers/ContactsProvider/Android.mk-
+similarity index 100%
+rename from packages/providers/ContactsProvider/Android.mk
+rename to packages/providers/ContactsProvider/Android.mk-
+diff --git a/packages/providers/ContactsProvider/tests/Android.mk b/packages/providers/ContactsProvider/tests/Android.mk-
+similarity index 100%
+rename from packages/providers/ContactsProvider/tests/Android.mk
+rename to packages/providers/ContactsProvider/tests/Android.mk-
+-- 
+2.25.1
+
