@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Please do not manually edit this file-->
 <manifest>
+  <project name="OpenExynos/android_device_generic_lionhead" path="device/generic/lionhead" remote="github" revision="android-6.0.1_r1" />
   <project name="OpenExynos/android_device_samsung_smdk7270" path="device/samsung/smdk7270" remote="github" revision="android-6.0.1_r1" />
   <project name="OpenExynos/android_device_samsung_smdk7570" path="device/samsung/smdk7570" remote="github" revision="android-6.0.1_r1" />
   <project name="OpenExynos/android_external_curl" path="external/curl" remote="github" revision="android-6.0.1_r1" />
