@@ -20,7 +20,7 @@
   <project name="OpenExynos/android_packages_apps_PressureSensor" path="packages/apps/PressureSensor" remote="github" revision="android-6.0.1_r1" />
   <project name="OpenExynos/android_packages_apps_Psensor" path="packages/apps/Psensor" remote="github" revision="android-6.0.1_r1" />
   <project name="OpenExynos/android_packages_apps_e_Compas" path="packages/apps/e_Compas" remote="github" revision="android-6.0.1_r1" />
-  <project name="OpenExynos/android_vendor_ThuderSoft_stm32l151-sensorhub" path="vendor/ThuderSoft/stm32l151-sensorhub" remote="github" revision="android-6.0.1_r1" />
+  <project name="OpenExynos/android_vendor_ThunderSoft_stm32l151-sensorhub" path="vendor/ThunderSoft/stm32l151-sensorhub" remote="github" revision="android-6.0.1_r1" />
   <project name="OpenExynos/android_vendor_samsung_slsi_exynos" path="vendor/samsung_slsi/exynos" remote="github" revision="android-6.0.1_r1" />
   <project name="OpenExynos/android_vendor_samsung_slsi_exynos7570" path="vendor/samsung_slsi/exynos7570" remote="github" revision="android-6.0.1_r1" />
   <project name="OpenExynos/android_vendor_samsung_slsi_gps_libs" path="vendor/samsung_slsi/gps_libs" remote="github" revision="android-6.0.1_r1" />
